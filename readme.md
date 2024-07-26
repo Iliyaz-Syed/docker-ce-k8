@@ -22,7 +22,7 @@
 
 **Running flask server using Docker Swarm**
 -
-- `docker swarn init`
+- `docker swarm init`
 - `docker build -t fimage:latest .`
 - `docker stack deploy -c docker-compose.yml myswarm`
 - `docker service ls`
